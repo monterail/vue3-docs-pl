@@ -2,33 +2,33 @@
 aside: false
 ---
 
-# Translations {#translations}
+# Tłumaczenia {#translations}
 
-## Available Languages {#available-languages}
+## Dostępne języki {#available-languages}
 
-- [English](https://vuejs.org/) [[source](https://github.com/vuejs/docs)]
-- [简体中文 / Simplified Chinese](https://cn.vuejs.org/) [[source](https://github.com/vuejs-translations/docs-zh-cn)]
-- [日本語 / Japanese](https://ja.vuejs.org/) [[source](https://github.com/vuejs-translations/docs-ja)]
-- [Українська / Ukrainian](https://ua.vuejs.org/) [[source](https://github.com/vuejs-translations/docs-uk)]
-- [Français / French](https://fr.vuejs.org) [[source](https://github.com/vuejs-translations/docs-fr)]
-- [한국어 / Korean](https://ko.vuejs.org) [[source](https://github.com/vuejs-translations/docs-ko)]
-- [Português / Portuguese](https://pt.vuejs.org) [[source](https://github.com/vuejs-translations/docs-pt)]
-- [বাংলা / Bengali](https://bn.vuejs.org) [[source](https://github.com/vuejs-translations/docs-bn)]
-- [Italiano / Italian](https://it.vuejs.org) [[source](https://github.com/vuejs-translations/docs-it)]
-- [فارسی / Persian](https://fa.vuejs.org) [[source](https://github.com/vuejs-translations/docs-fa)]
-- [Русский / Russian](https://ru.vuejs.org/) [[source](https://github.com/vuejs-translations/docs-ru)]
-- [Čeština / Czech](https://cs.vuejs.org/) [[source](https://github.com/vuejs-translations/docs-cs)]
-- [繁體中文 / Traditional Chinese](https://zh-hk.vuejs.org/) [[source](https://github.com/vuejs-translations/docs-zh-hk)]
+- [English / Angielski](https://vuejs.org/) [[źródło](https://github.com/vuejs/docs)]
+- [简体中文 / Chiński uproszczony](https://cn.vuejs.org/) [[źródło](https://github.com/vuejs-translations/docs-zh-cn)]
+- [日本語 / Japoński](https://ja.vuejs.org/) [[źródło](https://github.com/vuejs-translations/docs-ja)]
+- [Українська / Ukraiński](https://ua.vuejs.org/) [[źródło](https://github.com/vuejs-translations/docs-uk)]
+- [Français / Francuski](https://fr.vuejs.org) [[źródło](https://github.com/vuejs-translations/docs-fr)]
+- [한국어 / Koreański](https://ko.vuejs.org) [[źródło](https://github.com/vuejs-translations/docs-ko)]
+- [Português / Portugalski](https://pt.vuejs.org) [[źródło](https://github.com/vuejs-translations/docs-pt)]
+- [বাংলা / Bengali](https://bn.vuejs.org) [[źródło](https://github.com/vuejs-translations/docs-bn)]
+- [Italiano / Włoski](https://it.vuejs.org) [[źródło](https://github.com/vuejs-translations/docs-it)]
+- [فارسی / Perski](https://fa.vuejs.org) [[źródło](https://github.com/vuejs-translations/docs-fa)]
+- [Русский / Rosyjski](https://ru.vuejs.org/) [[źródło](https://github.com/vuejs-translations/docs-ru)]
+- [Čeština / Czeski](https://cs.vuejs.org/) [[źródło](https://github.com/vuejs-translations/docs-cs)]
+- [繁體中文 / Chiński tradycyjny](https://zh-hk.vuejs.org/) [[źródło](https://github.com/vuejs-translations/docs-zh-hk)]
 
-## Work in Progress Languages {#work-in-progress-languages}
+## Języki w toku prac {#work-in-progress-languages}
 
-- [العربية / Arabic](https://ar.vuejs.org/) [[source](https://github.com/vuejs-translations/docs-ar)]
+- [العربية / Arabski](https://ar.vuejs.org/) [[źródło](https://github.com/vuejs-translations/docs-ar)]
 
-- [Español / Spanish](https://vue3-spanish-docs.netlify.app/) [[source](https://github.com/icarusgk/vuejs-spanish-docs)]
-- [Deutsch / German](https://de-vue-docs.netlify.app/) [[source](https://github.com/vuejs-translations/docs-de)]
+- [Español / Hiszpański](https://vue3-spanish-docs.netlify.app/) [[źródło](https://github.com/icarusgk/vuejs-spanish-docs)]
+- [Deutsch / Niemiecki](https://de-vue-docs.netlify.app/) [[źródło](https://github.com/vuejs-translations/docs-de)]
 
-## Starting a new Translation {#starting-a-new-translation}
+## Rozpoczęcie nowego tłumaczenia {#starting-a-new-translation}
 
-The Vue documentation has recently undergone a major revision, so translations in other languages are still missing or work-in-progress.
+Dokumentacja Vue przeszła niedawno gruntowną rewizję, więc tłumaczenia w innych językach nadal są niedostępne lub są w trakcie realizacji.
 
-We welcome community efforts to provide more translations. Translation efforts are managed in the [vuejs-translations](https://github.com/vuejs-translations/) GitHub organization. If you are interested in contributing, please check out the [Translation Guidelines](https://github.com/vuejs-translations/guidelines/blob/main/README.md) to get started.
+Z zadowoleniem przyjmujemy wysiłki społeczności w zapewnianiu większej ilości tłumaczeń. Działania związane z tłumaczeniem są zarządzane w organizacji GitHub [vuejs-translations](https://github.com/vuejs-translations/). Jeśli chcesz się przyczynić, zapoznaj się z [wytycznymi dotyczącymi tłumaczeń](https://github.com/vuejs-translations/guidelines/blob/main/README.md), aby rozpocząć.
