@@ -583,8 +583,39 @@ export const sidebar: ThemeConfig['sidebar'] = {
 }
 
 // Placeholder of the i18n config for @vuejs-translations.
-// const i18n: ThemeConfig['i18n'] = {
-// }
+const i18n: ThemeConfig['i18n'] = {
+  search: 'Szukaj',
+  menu: 'menu',
+  toc: 'Na tej stronie',
+  returnToTop: 'Powrót do góry',
+  appearance: 'wygląd',
+  previous: 'Poprzednia',
+  next: 'Następna',
+  pageNotFound: 'Strona nie znaleziona',
+  deadLink: {
+    before: 'Znaleziono niedziałający link：',
+    after: '.'
+  },
+  deadLinkReport: {
+    before: 'Prosimy',
+    link: 'daj nam znać',
+    after: '，abyśmy mogli to naprawić.'
+  },
+  footerLicense: {
+    before: 'Wydane na podstawie ',
+    after: '.'
+  },
+  ariaAnnouncer: {
+    before: '',
+    after: 'Jest załadowany'
+  },
+  ariaDarkMode: 'Przełączanie trybu ciemnego',
+  ariaSkipToContent: 'Przejdź bezpośrednio do treści',
+  ariaToC: 'Katalog bieżącej strony',
+  ariaMainNav: 'główna nawigacja',
+  ariaMobileNav: 'Nawigacja mobilna',
+  ariaSidebarNav: 'Nawigacja w pasku bocznym'
+}
 
 export default defineConfigWithTheme<ThemeConfig>({
   extends: baseConfig,
@@ -661,7 +692,7 @@ export default defineConfigWithTheme<ThemeConfig>({
     nav,
     sidebar,
     // Placeholder of the i18n config for @vuejs-translations.
-    // i18n,
+    i18n,
 
     localeLinks: [
       {
@@ -737,6 +768,44 @@ export default defineConfigWithTheme<ThemeConfig>({
       apiKey: '21cf9df0734770a2448a9da64a700c22',
       searchParameters: {
         facetFilters: ['version:v3']
+      },
+      placeholder: 'Wyszukiwanie dokumentów',
+      translations: {
+        button: {
+          buttonText: 'Szukaj'
+        },
+        modal: {
+          searchBox: {
+            resetButtonTitle: 'Wyczyść kryteria wyszukiwania',
+            resetButtonAriaLabel: 'Wyczyść kryteria wyszukiwania',
+            cancelButtonText: 'Anuluj',
+            cancelButtonAriaLabel: 'Anuluj'
+          },
+          startScreen: {
+            recentSearchesTitle: 'Historia wyszukiwania',
+            noRecentSearchesText: 'Brak historii wyszukiwania',
+            saveRecentSearchButtonTitle: 'Zapisz w historii wyszukiwania',
+            removeRecentSearchButtonTitle: 'Usuń z historii wyszukiwania',
+            favoriteSearchesTitle: 'Ulubione',
+            removeFavoriteSearchButtonTitle: 'Usuń z ulubionych'
+          },
+          errorScreen: {
+            titleText: 'Nie można uzyskać wyników',
+            helpText: 'Konieczne może być sprawdzenie połączenia internetowego'
+          },
+          footer: {
+            selectText: 'wybierz',
+            navigateText: 'nawigacja',
+            closeText: 'zamknij',
+            searchByText: 'Wyszukiwanie według'
+          },
+          noResultsScreen: {
+            noResultsText: 'brak wyników wyszukiwania dla',
+            suggestedQueryText: 'Spróbuj wyszukać',
+            reportMissingResultsText: 'Uważasz że brakuje wyników?',
+            reportMissingResultsLinkText: 'Daj nam znać'
+          }
+        }
       }
     },
 
