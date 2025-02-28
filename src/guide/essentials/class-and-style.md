@@ -323,6 +323,20 @@ data() {
 
 Ponownie, powiązanie stylu obiektu jest często używane w połączeniu z obliczonymi właściwościami, które zwracają obiekty.
 
+Dyrektywy `:style` mogą również współistnieć ze zwykłymi atrybutami stylów, tak jak `:class`.
+
+Szablon:
+
+```vue-html
+<h1 style="color: red" :style="'font-size: 1em'">cześć</h1>
+```
+
+Wyrenderuje:
+
+```vue-html
+<h1 style="color: red; font-size: 1em;">cześć</h1>
+```
+
 ### Wiązanie z tablicami {#binding-to-arrays-1}
 
 Możemy powiązać `:style` z tablicą wielu obiektów stylu. Te obiekty zostaną scalone i zastosowane do tego samego elementu:

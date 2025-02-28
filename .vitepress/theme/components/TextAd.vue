@@ -6,7 +6,7 @@ function track() {
 
 <template>
   <div class="text-ad">
-    <span class="label">Ad</span>
+    <span class="label">Reklama</span>
     <a
       href="https://aircode.io"
       target="_blank"

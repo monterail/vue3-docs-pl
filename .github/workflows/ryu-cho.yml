@@ -23,7 +23,7 @@ jobs:
 
           # The url for the upstream repo. This is the repository that you
           # set up Ryu-Cho. Required.
-          upstream-repo: https://github.com/monterail/vue3-docs-pl.git
+          upstream-repo: https://github.com/vuejs-translations/docs-pl.git
 
           # The branch for the upstream repo. Optional. Defaults to `main`.
           upstream-repo-branch: main

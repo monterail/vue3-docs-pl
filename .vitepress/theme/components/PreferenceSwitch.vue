@@ -62,7 +62,7 @@ function useToggleFn(
   <div v-if="show" class="preference-switch">
     <button
       class="toggle"
-      aria-label="preference switches toggle"
+      aria-label="przełącznik zmiany preferencji"
       aria-controls="preference-switches"
       :aria-expanded="isOpen"
       @click="toggleOpen"
@@ -79,7 +79,7 @@ function useToggleFn(
         >
         <VTSwitch
           class="api-switch"
-          aria-label="prefer composition api"
+          aria-label="preferuję API kompozycyjne"
           :aria-checked="preferComposition"
           @click="toggleCompositionAPI()"
         />
@@ -90,7 +90,7 @@ function useToggleFn(
         >
         <a
           class="switch-link"
-          title="About API preference"
+          title="O preferencji API"
           href="/guide/introduction.html#api-styles"
           @click="closeSideBar"
           >?</a
@@ -101,14 +101,14 @@ function useToggleFn(
         <label class="no-sfc-label" @click="toggleSFC(false)">HTML</label>
         <VTSwitch
           class="sfc-switch"
-          aria-label="prefer single file component"
+          aria-label="preferuj komponent jednoplikowy"
           :aria-checked="preferSFC"
           @click="toggleSFC()"
         />
         <label class="sfc-label" @click="toggleSFC(true)">SFC</label>
         <a
           class="switch-link"
-          title="About SFC"
+          title="O SFC"
           href="/guide/scaling-up/sfc.html"
           @click="closeSideBar"
           >?</a

@@ -223,7 +223,7 @@ Fakt, że moduł reaktywności w Vue jest wyodrębniony od samego modelu kompone
 
 ## Rozważania względem SSR {#ssr-considerations}
 
-Jeśli budujesz aplikację, która wykorzystuje [renderowanie po stronie serwera (SSR)](./srr) to powyższe podejście może prowadzić do różnego rodzaju problemów, ponieważ stan będącym takim singletonem jest współdzielony między zapytaniami do serwera. Omawiamy ten problem [dokładniej](./ssr#cross-request-state-pollution) w poradniku odnośnie SSR.
+Jeśli budujesz aplikację, która wykorzystuje [renderowanie po stronie serwera (SSR)](./ssr) to powyższe podejście może prowadzić do różnego rodzaju problemów, ponieważ stan będącym takim singletonem jest współdzielony między zapytaniami do serwera. Omawiamy ten problem [dokładniej](./ssr#cross-request-state-pollution) w poradniku odnośnie SSR.
 
 ## Pinia {#pinia}
 
