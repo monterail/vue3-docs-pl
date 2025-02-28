@@ -282,4 +282,4 @@ And finally, here's the full directive syntax visualized:
 
 ![directive syntax graph](./images/directive.png)
 
-<!-- https://www.figma.com/file/BGWUknIrtY9HOmbmad0vFr/Directive -->
+<!-- https://www.figma.com/design/ubpLP5FApjvxfG5hYTor2k/Directive-(Copy)?m=dev&t=mc8MGhY3f12vcfft-1 -->

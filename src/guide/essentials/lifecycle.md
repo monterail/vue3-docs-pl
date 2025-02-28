@@ -61,6 +61,6 @@ Below is a diagram for the instance lifecycle. You don't need to fully understan
 
 ![Component lifecycle diagram](./images/lifecycle.png)
 
-<!-- https://www.figma.com/file/Xw3UeNMOralY6NV7gSjWdS/Vue-Lifecycle -->
+<!-- https://www.figma.com/design/LBSXtsJPzOCnz9aOAfkiIi/Vue-Lifecycle-(Copy)?node-id=0-1&m=dev&t=lkSbrpgrfE6Dt08S-1 -->
 
 Consult the <span class="composition-api">[Lifecycle Hooks API reference](/api/composition-api-lifecycle)</span><span class="options-api">[Lifecycle Hooks API reference](/api/options-lifecycle)</span> for details on all lifecycle hooks and their respective use cases.

@@ -82,7 +82,7 @@ Istnieje sześć klas stosowanych dla przejść wejścia / wyjścia.
 
 ![Diagram Przejścia](./images/transition-classes.png)
 
-<!-- https://www.figma.com/file/rlOv0ZKJFFNA9hYmzdZv3S/Transition-Classes -->
+<!-- https://www.figma.com/design/IxcTuwPDCdUbsjAAeew5MT/Transition-Classes-(Copy)?node-id=0-1&m=dev&t=wEhDb9VNqIEmcPOG-1 -->
 
 1. `v-enter-from`: Stan początkowy dla wejścia. Dodawany przed wstawieniem elementu, usuwany jedną klatkę po wstawieniu elementu.
 

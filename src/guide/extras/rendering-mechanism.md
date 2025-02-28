@@ -46,7 +46,7 @@ Na wysokim poziomie, oto co dzieje się, gdy komponent Vue jest montowany:
 
 ![render pipeline](./images/render-pipeline.png)
 
-<!-- https://www.figma.com/file/elViLsnxGJ9lsQVsuhwqxM/Rendering-Mechanism -->
+<!-- https://www.figma.com/design/CxGRAVJPCNyM1sIiqgG9bv/Rendering-Mechanism-(Copy)?node-id=0-1&m=dev&t=40t43kW6GKKSxrF2-1 -->
 
 ## Szablony vs. funkcje renderujące {#templates-vs-render-functions}
 

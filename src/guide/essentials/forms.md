@@ -13,17 +13,17 @@ const selected = ref('')
 const multiSelected = ref([])
 </script>
 
-# Form Input Bindings {#form-input-bindings}
+# Powiązania danych formularza {#form-input-bindings}
 
 <div class="options-api">
-  <VueSchoolLink href="https://vueschool.io/lessons/user-inputs-vue-devtools-in-vue-3" title="Free Lesson on User Inputs with Vue.js"/>
+  <VueSchoolLink href="https://vueschool.io/lessons/user-inputs-vue-devtools-in-vue-3" title="Darmowa lekcja na temat wprowadzania danych przez użytkownika w Vue.js"/>
 </div>
 
 <div class="composition-api">
-  <VueSchoolLink href="https://vueschool.io/lessons/vue-fundamentals-capi-user-inputs-in-vue" title="Free Lesson on User Inputs with Vue.js"/>
+  <VueSchoolLink href="https://vueschool.io/lessons/vue-fundamentals-capi-user-inputs-in-vue" title="Darmowa lekcja na temat wprowadzania danych przez użytkownika w Vue.js"/>
 </div>
 
-When dealing with forms on the frontend, we often need to sync the state of form input elements with corresponding state in JavaScript. It can be cumbersome to manually wire up value bindings and change event listeners:
+Podczas pracy z formularzami na froncie, często musimy zsynchronizować stan elementów formularza z odpowiednim stanem w JavaScript. Może to być uciążliwe, gdy ręcznie łączymy powiązania wartości i nasłuchiwacze zdarzeń:
 
 ```vue-html
 <input
@@ -31,23 +31,23 @@ When dealing with forms on the frontend, we often need to sync the state of form
   @input="event => text = event.target.value">
 ```
 
-The `v-model` directive helps us simplify the above to:
+Dyrektywa `v-model` pomaga uprościć powyższy kod do:
 
 ```vue-html
 <input v-model="text">
 ```
 
-In addition, `v-model` can be used on inputs of different types, `<textarea>`, and `<select>` elements. It automatically expands to different DOM property and event pairs based on the element it is used on:
+Ponadto `v-model` można używać na inputach o różnych typach, elementach `<textarea>` i `<select>`. Automatycznie dostosowuje się do różnych par właściwości i zdarzeń DOM w zależności od elementu, na którym jest używany:
 
-- `<input>` with text types and `<textarea>` elements use `value` property and `input` event;
-- `<input type="checkbox">` and `<input type="radio">` use `checked` property and `change` event;
-- `<select>` uses `value` as a prop and `change` as an event.
+- `<input>` z typem tekstowym i `<textarea>` używają właściwości value i `input` jako zdarzenia;
+- `<input type="checkbox">` i `<input type="radio">` używają właściwości `checked` i `change` jako zdarzenia;
+- `<select>` używa `value` jako właściwości i `change` jako zdarzenia.
 
 ::: tip Note
-`v-model` will ignore the initial `value`, `checked` or `selected` attributes found on any form elements. It will always treat the current bound JavaScript state as the source of truth. You should declare the initial value on the JavaScript side, using <span class="options-api">the [`data`](/api/options-state.html#data) option</span><span class="composition-api">[reactivity APIs](/api/reactivity-core.html#reactivity-api-core)</span>.
+`V-model` zignoruje początkowe atrybuty `value`, `checked` czy `selected` w elementach formularzy. Zawsze będzie traktować bieżący stan JavaScript jako źródło prawdy. Początkową wartość należy zadeklarować po stronie JavaScript, używając opcji <span class="options-api">opcji [`data`](/api/options-state.html#data)</span><span class="composition-api">[API reaktywności](/api/reactivity-core.html#reactivity-api-core)</span>.
 :::
 
-## Basic Usage {#basic-usage}
+## Podstawowe użycie {#basic-usage}
 
 ### Text {#text}
 

@@ -28,7 +28,7 @@ Element `<slot>` jest **outletem slotu**, który wskazuje, gdzie powinna zostać
 
 ![schemat slotu](./images/slots.png)
 
-<!-- https://www.figma.com/file/LjKTYVL97Ck6TEmBbstavX/slot -->
+<!-- https://www.figma.com/design/yLLfKurBXsjVAuxflZD9ll/slot-(Copy)?m=dev&t=lkSbrpgrfE6Dt08S-1 -->
 
 A końcowy wyrenderowany DOM:
 
@@ -103,7 +103,6 @@ Zawartość **slotu** nie ma dostępu do danych komponentu potomnego. Wyrażenia
 > Wyrażenia w szablonie nadrzędnym mają dostęp tylko do zakresu nadrzędnego; wyrażenia w szablonie potomnym mają dostęp tylko do zakresu potomnego.
 
 ## Zawartość domyślna {#fallback-content}
-
 
 Istnieją przypadki, gdy przydatne jest określenie zawartości zastępczej (tzn. domyślnej) dla slotu, która będzie renderowana tylko wtedy, gdy nie dostarczono żadnej zawartości. Na przykład, w komponencie `<SubmitButton>`:
 
@@ -210,7 +209,7 @@ Aby przekazać nazwany slot, musimy użyć elementu `<template>` z dyrektywą `v
 
 ![diagram nazwanych slotów](./images/named-slots.png)
 
-<!-- https://www.figma.com/file/2BhP8gVZevttBu9oUmUUyz/named-slot -->
+<!-- https://www.figma.com/design/Nevd7UPDiouH0ypHE4pFCs/named-slot-(Copy)?node-id=0-1&m=dev&t=lkSbrpgrfE6Dt08S-1 -->
 
 Oto kod przekazujący zawartość do wszystkich trzech slotów do `<BaseLayout>` przy użyciu składni skróconej:
 
@@ -312,11 +311,11 @@ Gdy obecna jest treść dla nagłówka / stopki / domyślnej zawartości, chcemy
     <div v-if="$slots.header" class="card-header">
       <slot name="header" />
     </div>
-    
+
     <div v-if="$slots.default" class="card-content">
       <slot />
     </div>
-    
+
     <div v-if="$slots.footer" class="card-footer">
       <slot name="footer" />
     </div>
@@ -370,7 +369,7 @@ Odbieranie propsów slotu wygląda nieco inaczej w przypadku używania pojedyncz
 
 ![scoped slots diagram](./images/scoped-slots.svg)
 
-<!-- https://www.figma.com/file/QRneoj8eIdL1kw3WQaaEyc/scoped-slot -->
+<!-- https://www.figma.com/design/d1jT37pWI9h0ytZ8rlGq55/scoped-slot-(Copy)?node-id=0-1&m=dev&t=SibCnvQxw122zbML-1 -->
 
 <div class="composition-api">
 
